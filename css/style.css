@@ -6,3 +6,13 @@ h1 {
     color: blue;
     font-family: 'Indie Flower', cursive;
 }
+
+.divbase {
+    height: 1000px;
+    width: 800px;
+}
+
+.image1 {
+    width: 400px;
+    height: 500px;
+}
