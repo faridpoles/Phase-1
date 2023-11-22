@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+
+    </nav>
+<main>
+    <section class="sec1">
+        <h1>Formulaire</h1><br>
+        <form action="" method="POST">
+            <label class="label" for="username">Pseudo :</label>
+            <input type="text" id="name" name="user_name" placeholder="Tapez votre pseudo" required><br>
+            <label class="label" for="password">Mdp :</label>
+            <input type="password" id="password" name="user_pass" placeholder="Tapez votre mdp" required><br>
+            <label class="label" for="mail">Mail :</label>
+            <input type="mail" id="mail" name="user_mail" placeholder="jean@exemple.fr" required><br>
+            <label class="label" for="photo">Photo :</label>
+            <input type="file" id="file" name="user_photo" placeholder="Votre photo" required><br>
+            <fieldset>
+                <p id="p1">Choix multiples<p>
+                <label for="q1">Quelle destination choisissez-vous?</label>
+                <p>
+                    <input type="checkbox" name="Italie" id="Italie">
+                    <label for="Italie">Italie</label><br>
+                    <input type="checkbox" name="Tunisie" id="Tunisie">
+                    <label for="Tunisie">Tunisie</label><br>
+                    <input type="checkbox" name="Espagne" id="Espagne">
+                    <label for="Espagne">Espagne</label>
+                </p>
+
+                <label for="q2">Qui seront vos accompagnateurs?</label>
+                <p> 
+                    <input type="radio" name="famille" id="famille">
+                    <label for="family">En famille</label><br>
+                    <input type="radio" name="friends" id="friends">
+                    <label for="friends">Entre amis</label><br>
+                    <input type="radio" name="Solo" id="Solo">
+                    <label for="Solo">Solo</label>
+                </p>
+
+                <label for="text">Commentaires :</label>
+                <textarea name="text" id="text1" cols="80" rows="8" placeholder="Écrivez votre message"></textarea>
+                
+            </fieldset>
+            <input class="submit" type="submit" value="Confirmer">
+            <input class="reset" type="reset" value="Réinitialiser">
+        </form>
+    </section>
+</main>
+<footer></footer>
+</body>
+</html>
