@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: grey;
+}
+
+nav {
+    background-color: rgb(201, 152, 62);
+}
+
+section {
+    background-color: blue;
+}
+
+.firstpart {
+    background-color: honeydew;
+}
+
+.img1 {
+    height: 100px;
+    width: 300px;
+}
+
+.jaune {
+    background-color: yellow;
+}
+
+#noir {
+    background-color: cyan;
+}
