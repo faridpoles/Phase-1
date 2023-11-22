@@ -1,3 +1,7 @@
+* {
+    text-align: right;
+}
+
 body {
     background-color: white;
 }
@@ -29,4 +33,17 @@ section {
 
 #noir {
     background-color: cyan;
+}
+
+footer {
+    background-color: #daf7a6;
+    height: 75px;
+}
+
+footer, nav {
+    color: #a93226;
+}
+
+.list {
+    list-style-position: inside;
 }
