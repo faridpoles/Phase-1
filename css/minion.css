@@ -1,0 +1,19 @@
+table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+tr:nth-child(2) td:nth-child(2), tr:nth-child(3) td:nth-child(even), tr:nth-child(4) td:nth-child(2), tr:nth-child(4) td:nth-child(6) {
+    background-color: yellow;
+}
+
+tr:nth-child(3) td:nth-child(3), tr:nth-child(4) td:nth-child(3), tr:nth-child(4) td:nth-child(5){
+    background-color: grey;
+}
