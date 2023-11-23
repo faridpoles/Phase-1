@@ -1,0 +1,44 @@
+h1 {
+    background-color: #2F4F4F;
+}
+
+.rose {
+    color: #DC70D6;
+}
+
+.blue {
+    color: #87CEFA;
+}
+
+.orange {
+    color: #FFA500;
+}
+
+.zone1 {
+    color: #DC143C;
+}
+
+.zone2 {
+    color: #398280;
+}
+.lime {
+    color: #00FF52;
+}
+
+.zone3 {
+    background-color: #F5DEB3;
+}
+
+.red {
+    background-color: #8B0000;
+    list-style: none;
+}
+
+.bold {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blue2 {
+    background-color: #00FFFF;
+}
