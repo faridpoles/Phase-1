@@ -49,3 +49,7 @@ tr:nth-child(12) td:nth-child(even), tr:nth-child(13) td:nth-child(3), tr:nth-ch
 tr:nth-child(17) td:nth-child(3), tr:nth-child(18) td:nth-child(3) {
     background-color: blue;
 }
+
+tr:nth-child(21) td:nth-child(1n+1) {
+    background-color: green;
+}
