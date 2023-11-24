@@ -1,0 +1,62 @@
+body {
+	margin: 0px;
+}
+
+.boite {
+	background-image: url("/img/fort.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px;
+	margin: 20px;
+	border: 8px double #da70d6;
+	margin-bottom: 5px;
+	height: 100px;
+	width: 300px;
+	float: left;
+	font-size: 30px;
+}
+
+div:hover {
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+.div1 {
+	background-color: #b0c4de;
+	margin: auto;
+	margin-top: 1px;
+	width: 100%;
+	height: 1000px;
+	padding-top: 30px;
+}
+
+.boite:hover {
+	margin-top: 100px;
+	transition: 1s;
+}
+
+#p1 {
+	background-color: #66cdaa;
+	margin: 0px;
+	font-size: 25px;
+}
+#center {
+	background-color: yellow;
+}
+
+hr {
+	margin: 0px;
+}
+
+.div0 {
+	background-color: #faebd7;
+	height: 10px;
+}
+
+.div2 {
+	background-color: #b0c4de;
+	height: 30px;
+}
