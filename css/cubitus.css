@@ -1,0 +1,64 @@
+#div {
+    height: auto;
+    width: 100%;
+    align-content: center;
+    border: 0px solid black;
+    padding: 20px;
+    float: left;
+    margin: 0 25%;
+}
+
+#div div {
+    margin: 5px;
+    float: left;
+    text-align: center;
+}
+
+.green {
+    border: 3px solid black;
+    background: green;
+    border-radius: 10px 20px 40px 60px;
+    height: 150px;
+    width: 150px;
+}
+
+.cyan {
+    border: 3px solid black;
+    background: cyan;
+    border-radius: 60px 0 60px 0;
+    height: 150px;
+    width: 150px;
+}
+
+.break {
+    clear: both;
+}
+
+.blue {
+    border: 3px solid black;
+    background: #7FFFD4;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.salmon {
+    border: 3px solid black;
+    background: #E9967A;
+    border-radius: 20px 60px 20px 60px;
+    height: 150px;
+    width: 150px;
+}
+
+#red {
+    border: 3px solid black;
+    background: red;
+    border-radius: 20px 60px 20px 60px;
+    height: 150px;
+    width: 150px; 
+}
+
+.void {
+    height: 150px;
+    width: 150px;
+}
