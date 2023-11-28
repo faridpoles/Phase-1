@@ -1,63 +1,54 @@
+* {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+}
+
 body {
     margin: 20px;
     border: 2px solid black;
 }
 
 header {
-    font-size: 30px;
-    color: white;
     background-color: #8E3557;
     height: 150px;
 }
 
 nav {
-    font-size: 30px;
-    color: white;
     background-color: #4A1A2C;
 }
 
 section {
-    margin: 20px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .a {
     background-color: #4A1A2C;
     width: 50%;
     height: 350px;
-    font-size: 30px;
-    color: white;
 }
 
 .b {
     background-color: #787746;
     width: 50%;
     height: 350px;
-    font-size: 30px;
-    color: white;
 }
 
 .c {
     background-color: #E6E2AF;
     width: 50%;
     height: 350px;
-    font-size: 30px;
-    color: white;
 }
 
 .d {
     background-color: #ADD8E6;
     width: 50%;
     height: 350px;
-    font-size: 30px;
-    color: white;
 }
 
 footer {
-    font-size: 30px;
-    color: white;
     background-color: #4A1A2C;
     height: 150px;
 }
