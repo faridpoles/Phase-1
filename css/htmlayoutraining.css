@@ -1,4 +1,58 @@
+* {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .contenu {
-    width: 60%;
+    width: 40%;
     margin: auto;
+    border: 3px solid darkblue;
+}
+
+header {
+    background-color: lightpink;
+    padding: 15px;
+    border: 1px solid darkblue;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 15px;
+    border: 1px solid darkblue;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section1 {
+    width: 49.5%;
+    background-color: lightgreen;
+    border: 1px solid darkblue;
+    height: 200px;
+}
+
+#aside1 {
+    width: 49.9%;
+    background-color: lightsalmon;
+    border: 1px solid darkblue;
+}
+
+footer {
+    background-color: lightcoral;
+    padding: 15px;
+    border: 1px solid darkblue;
+}
+
+article {
+    height: 140px;
+    background-color: violet;
+    margin: 4px;
+}
+
+#heading {
+    background-color: red;
+    margin: 4px;
 }
