@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 95%;
+}
+
+section {
+    margin-top: 40px;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+}
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: lightblue;
+}
+
+#red {
+    background-color: tomato;
+}
+
+
+
+
+[class*="kal-"] {
+    width: 100%;
+    height: 100px;
+}
+  
+@media only screen and (min-width: 600px) {
+    .kal-s-12 {width: 100%; height: 200px;}
+}
+
+@media only screen and (min-width: 900px) {
+    .kal-3 {width: 25%; height: 700px;}
+    #yellow {background-color: black;}
+    #blue {background-color: yellow;}
+  }
