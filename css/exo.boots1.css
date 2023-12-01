@@ -1,0 +1,25 @@
+p {
+    margin: 0px;
+}
+
+main {
+    width: 100%;
+    background-color: rgb(211, 210, 210);
+}
+
+img {
+    margin: 20px 20px 0px 20px;
+}
+
+section {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.image_1 {
+    width: 80%;
+}
+
+.card_1 {
+    margin: 20px;
+}
