@@ -1,0 +1,8 @@
+main {
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid rgb(166, 166, 206);
+    border-radius: 10px;
+    padding: 20px;
+}
